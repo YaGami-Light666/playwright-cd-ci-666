@@ -1,0 +1,23 @@
+{
+  "name": "camt-help-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CAMT Help Desk - Vue 3 teaching app for 495 Automated Test, week 11 lab 2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "type-check": "vue-tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.7.3",
+    "vite": "^6.0.7",
+    "vue-tsc": "^2.2.0"
+  }
+}

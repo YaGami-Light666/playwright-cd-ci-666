@@ -1,0 +1,28 @@
+{
+  "name": "lab11",
+  "version": "1.0.0",
+  "description": "Combined Playwright suites from labs 08 and 09.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=lab08-saucedemo-chromium --project=lab08-booking-chromium --project=lab09-saucedemo-chromium --project=lab09-helpdesk-chromium",
+    "test:report": "playwright show-report",
+    "install:browsers": "playwright install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.7.3",
+    "vite": "^6.0.7",
+    "vue-tsc": "^2.2.0"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  }
+}
